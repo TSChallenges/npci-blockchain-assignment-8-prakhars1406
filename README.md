@@ -29,6 +29,8 @@ By completing this assignment, students will gain practical experience in:
   *   **kind CLI** (for running local Kubernetes cluster) [https://kind.sigs.k8s.io/docs/user/quick-start/].
   *   **kubectl CLI** (for deploying updates to the Kubernetes cluster) [https://kubernetes.io/docs/tasks/tools/].
 
+- Do not edit anything in `.devcontainer` and `cli` folders.
+
 
 ## Assignment Tasks
 
