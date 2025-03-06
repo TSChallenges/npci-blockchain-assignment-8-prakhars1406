@@ -1,4 +1,6 @@
-# NPCI-blockchain-Assignment-8 : Kubernetes Introduction [10 Marks]
+# NPCI Blockchain Assignment-8
+
+## Kubernetes Introduction [10 Marks]
 
 ## Assignment Objective
 
@@ -12,13 +14,6 @@ By completing this assignment, students will gain practical experience in:
 *   Scaling and updating deployments dynamically.
 *   Verifying and troubleshooting Kubernetes deployments.
 
-## Prerequisites
-
-*   **GitHub Account** (for code submission).
-*   **Docker and Docker Compose** installed.
-*   **kind CLI** (for running local Kubernetes cluster) [https://kind.sigs.k8s.io/docs/user/quick-start/].
-*   **kubectl CLI** (for deploying updates to the Kubernetes cluster) [https://kubernetes.io/docs/tasks/tools/].
-
 
 ## Steps to Follow
 
@@ -27,6 +22,12 @@ By completing this assignment, students will gain practical experience in:
 - Start a new Codespace. It will have Kubernetes preinstalled.
 
   Note that it may take around 5 minutes for the Codespace to start after you click on "Create Codespace".
+
+- If you are using Kubernetes from your system then below are the prerequisites:
+  *   **GitHub Account** (for code submission).
+  *   **Docker and Docker Compose** installed.
+  *   **kind CLI** (for running local Kubernetes cluster) [https://kind.sigs.k8s.io/docs/user/quick-start/].
+  *   **kubectl CLI** (for deploying updates to the Kubernetes cluster) [https://kubernetes.io/docs/tasks/tools/].
 
 
 ## Assignment Tasks
