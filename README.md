@@ -35,31 +35,31 @@ By completing this assignment, students will gain practical experience in:
 ## Assignment Tasks
 
 1.  **Create a Namespace** [2 Marks]
-   
+
     *   Create a new namespace called **web-app-namespace**.
     *   Verify the new namespace.
-      
+
 2.  **Deploy an NGINX Application** [3 Marks]
-   
+
     *   Deploy an NGINX application inside the **web-app-namespace**.
-      
+
         *   Name: `nginx-deployment`
         *   **3 replicas** for high availability.
         *   A container image of `nginx:latest`.
         *   The container should listen on **port 80**.
         *   Set an environment variable **APP_ENV=production** inside the container.
-          
+
 3.  **Expose the Application via a Service** [3 Marks]
-   
+
     *   Create one service:
-      
+
         *   **ClusterIP Service** (Internal Access):
             *   Name: `nginx-clusterip`
             *   Type: `ClusterIP`
             *   Exposes **port 80**
-              
+
 4.  **Verify the Deployment & Service** [2 Marks]
-   
+
     *   Ensure the pods are running in the correct namespace.
     *   Check if the **ClusterIP service** is accessible from within the cluster.
     *   Check if you are able to make a request to the Nginx application using the service. For example: `curl://nginx-clusterip.web-app-namespace.svc.cluster.local`.
